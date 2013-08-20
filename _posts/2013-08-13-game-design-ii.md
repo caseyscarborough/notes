@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Game Design & Programming II"
-date:   2013-08-13 9:50:00
+date:   2013-08-13 09:50:00
 categories: [notes, game design]
 ---
 

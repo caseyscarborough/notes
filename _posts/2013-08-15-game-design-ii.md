@@ -12,6 +12,7 @@ categories: [notes, game design]
 * Make project name _MyFirstXNAProg_ and create project.
 
 View the following page for a more detailed description:
+
 * [Creating a Windows Game or Library Project](http://msdn.microsoft.com/en-us/library/bb203928.aspx)
 
 ## Main XNA Libraries

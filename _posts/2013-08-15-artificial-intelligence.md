@@ -21,7 +21,7 @@ categories: [notes, artificial intelligence]
 To illustrate these concepts, we use the vaccuum cleaner world. It has two locations, _A_ and _B_. It perceives which location it's in and whether it's clean or dirty. If it's dirty, it _sucks_, if it is clean, it _moves_ to the other location.
 
 <p align="center">
-  <img src="http://caseyscarborough.github.io/class-notes/images/20130815-artificial-intelligence.png">
+  <img src="/img/ai-3.png">
 </p>
 
 ### Good Behavior
@@ -32,7 +32,7 @@ To illustrate these concepts, we use the vaccuum cleaner world. It has two locat
   * An agent generates actions on an environment based on the percepts it gets. If the sequence produced by these actions is desirable, then the agent has performed well.
   * This notion of _desirability_ is captured by a __performance measure__ that evaluates any given sequence of _environment states_.
 
-#### Rationality
+### Rationality
 
 What is rational depends on four things: 
 * The performance measure that defines the criterion fo success.
@@ -54,12 +54,13 @@ __Task environments__ are essentially the _problems_ to which the rational agent
 We can describe a performance measure by using the PEAS (Performance, Environment, Actuators, and Sensors) description.
 
 <p align="center">
-  <img src="http://caseyscarborough.github.io/class-notes/images/20130815-artificial-intelligence-2.png">
+  <img src="/img/ai-4.png">
 </p>
 
 We must determine the __performance measure__ to which we would like our automated taxi driver to aspire.
 
 Desirable qualities include:
+
 * Getting to the correct destination
 * Minimizing fuel consumption and wear and tear
 * Minimizing trip time or cost

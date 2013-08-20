@@ -31,7 +31,7 @@ Students are expected to achieve developing level of mastery of topics in artifi
 
 The main definitions of AI consist of _thought processes_, _reasoning_, and _behavior_. The following are some definitions of aritificial intelligence, organized into four categories.
 
-![Thinking](http://caseyscarborough.github.io/class-notes/images/artificial-intelligence-20130813-1.png)
+![Thinking](/img/ai-1.png)
 
 #### Thinking Humanly
 
@@ -77,7 +77,7 @@ The following are disciplines that contributed ideas, viewpoints, and techniques
 
 * How do brains process information?
 
-![Neuroscience](http://caseyscarborough.github.io/class-notes/images/artificial-intelligence-20130813-2.png)
+![Neuroscience](/img/ai-2.png)
 
 #### Psychology
 

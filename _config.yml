@@ -1,3 +1,4 @@
 name: Lecture Notes
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:day/:title/

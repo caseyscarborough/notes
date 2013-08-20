@@ -45,7 +45,7 @@ to develop software
 
 #### Design Patterns
 
-* [Design Patterns in C#](http://proquest.safaribooksonline.com/0321126971) by Steven John Metsker.  
+* [Design Patterns in C#](http://proquest.safaribooksonline.com/0321126971) by Steven John Metsker.
 * [Software Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) 
 * [Design Patterns in C#](http://www.amazon.com/dp/0321718933)
 * [Practical Open Source Software Exploration](http://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/index.html)

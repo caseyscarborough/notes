@@ -1,2 +1,2 @@
-gem 'jekyll'
-gem 'redcarpet'
+gem 'jekyll', '1.1.2'
+gem 'redcarpet', '2.2.2'

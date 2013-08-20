@@ -95,7 +95,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  text-align: justify;
+  text-align: left;
   width: 45em;
   margin: 0px auto 20px;
   background: #fff;
@@ -199,9 +199,9 @@ img {
 }
 
 .post pre {
-  padding: 5px;
+  padding: 10px;
   background: #eee;
-  font-size: 80%;
+  font-size: 90%;
   overflow: auto;
   line-height: 1.4em;
   box-shadow: inset 0 0 5px #ccc;

@@ -15,7 +15,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #eee;
+  background-color: #f1f1f1;
   font-size: 15px;
   font-family: 'Helvetica' !important;
   line-height: 1.7;
@@ -26,9 +26,13 @@ body {
 h1 { margin-bottom: 1em; }
 
 h1, h2, h3 {
-  margin: 20px 0px;
+  margin: 20px 0px 10px;
   font-size: 140%;
   line-height: 110%;
+}
+
+h1 {
+  font-size: 200%;
 }
 
 h2 {
@@ -199,11 +203,11 @@ img {
 
 .post pre {
   padding: 10px;
-  background: #eee;
+  background: #f8f8f8;
   font-size: 90%;
   overflow: auto;
   line-height: 1.4em;
-  box-shadow: inset 0 0 5px #ccc;
+  border: 1px solid #ddd;
 }
 
 .post ul, .post ol {

@@ -27,11 +27,12 @@ h1 { margin-bottom: 1em; }
 
 h1, h2, h3 {
   margin: 20px 0px;
-  font-size: 150%;
+  font-size: 140%;
   line-height: 110%;
 }
 
 h2 {
+  font-size: 180%;
   padding: 5px 0px;
   border-bottom: 1px solid #eee;
 }

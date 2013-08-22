@@ -7,6 +7,8 @@ categories: [notes, software engineering]
 
 # Testing Conventional Application
 
+* [Powerpoint Slides](https://www.dropbox.com/s/2uko03vu1cl3gax/chapter_18.ppt)
+
 ## Testability
 
 * __Operability__—it operates cleanly

@@ -53,17 +53,65 @@ categories: [notes, software engineering]
 * What effect will specific combinations of data have on system operation?
 
 
-## White-Box Testing
+## Definition of White Box Testing
+* Testing based on _analysis of internal logic_ (design, code, etc.). (But expected results still come from requirements.)
+* Also know as _structural testing_.
+* White-box testing concerns techniques for
+* signing tests; it is _not a level of testing_.
+* White-box testing techniques apply _primarily_ to lower levels of testing (e.g., unit and component).
+* Complete path testing is not realistic goal for a program with loops
 
-* Testing based on _analysis of internal logic_ (design, code, etc.). (But _expected results_ still come from requirements.)
-* Also known as _structural testing_.
-* White-box testing concerns techniques for _designing_ tests.
-
-Dr. Qu changes the slides too quickly. So I didn't get the rest of these points.
+Dr. Qu changes the slides too quickly. So I didn't get the rest of these points. (All the points are here, I got them later, just thought I'd leave this though)
 
 <p align="center">
   <img src="http://www.reactiongifs.com/wp-content/uploads/2013/02/GIF.gif">
 </p>
+
+## Types of Logic Coverage
+
+* __Statement__: each statement executed at least once
+* __Branch__: each branch traversed (and every entry point taken) at least once
+* __Condition__: each condition True at least once and False at least once
+* __Branch/Condition:__ both Branch and Condition coverage achieved
+* __Compound Condition__: all combinations of condition values at every branch statement covered (and every entry point taken)
+* __Path__: all program paths traversed at least once
+
+
+## Control Flow Graph
+
+The following function, `ReturnAverage`, computes the average of all the numbers in the input array in the positive range [MIN, MAX]. The maximum size of the array is AS. But, the array size could be smaller than AS in which case the end of input is represented by -999.
+
+```c#
+public static double ReturnAverage(int value[], int AS, int MIN, int MAX){
+    int i, ti, tv, sum;
+    double av;
+    i = 0; ti = 0; tv = 0; sum = 0;
+
+    while (ti < AS && value[i] != -999) {
+        ti++;
+        if (value[i] >= MIN && value[i] <= MAX) {
+            tv++;
+            sum = sum + value[i]; 
+        }
+        i++;
+    }
+
+    if (tv > 0) {
+        av = (double) sum/tv;
+    } else {
+        av = (double) -999;
+    }
+
+    return av;
+}
+```
+
+The following shows the control flow diagram for the above code.
+
+<p align="center">
+  <img src="/img/control-flow-diagram.png">
+</p>
+
 
 ## Cyclomatic Complexity
 
@@ -72,6 +120,7 @@ C is what McCabe calls the _Cyclomatic Complexity_ of a program.
 <img src="http://latex.codecogs.com/gif.latex?%5Chuge%20v%20%3D%20e%20-n%20&plus;%202">
 
 v: Complexity
-e: Edges in Control Form Diagram
-n: Nodes in Control Form Diagram
 
+e: Edges in Control Form Diagram
+
+n: Nodes in Control Form Diagram

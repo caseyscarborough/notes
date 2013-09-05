@@ -1,4 +1,6 @@
 name: Lecture Notes
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 pygments: true
 permalink: /:year/:month/:day/:title/

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Game Design & Programming II"
+title:  "Game Design II: Sprite Animation"
 date:   2013-09-03 09:50:00
 categories: [notes, game design]
 ---
